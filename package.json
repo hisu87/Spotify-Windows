@@ -1,0 +1,28 @@
+{
+  "name": "spotify-windows",
+  "version": "1.0.0",
+  "description": "A Spotify-like music streaming application for Windows",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "music",
+    "streaming",
+    "spotify",
+    "electron",
+    "windows"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "ytdl-core": "^4.11.5",
+    "ytmusic-api": "^5.3.0"
+  }
+}
