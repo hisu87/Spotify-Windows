@@ -19,7 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^35.2.0",
-    "electron-builder": "^26.0.12"
+    "electron-builder": "^26.6.0"
   },
   "dependencies": {
     "ytdl-core": "^4.11.5",
